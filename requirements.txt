@@ -2,3 +2,9 @@ pandas>=1.5
 numpy>=1.23
 requests>=2.28
 matplotlib>=3.6
+
+# 数据源
+akshare>=1.18          # 主数据源：A股 ETF 历史行情（fund_etf_hist_em）
+# xtquant               # 兜底数据源：miniQMT 客户端，无 pip 包，需从迅投官方下载安装
+                        # 文档: http://dict.thinktrader.net/nativeApi/start_now.html
+scipy>=1.9             # etf_parameter_optimization.py 参数优化
